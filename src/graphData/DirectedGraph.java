@@ -11,6 +11,11 @@ public class DirectedGraph {
 	}
 	
 	public void addVertex(int vertexID, Object suppData){
+		if (this.vertexMapping.containsKey(vertexID)) {
+			throw new IllegalArgumentException("Attempted to add a vertex with ID equal to an existing vertex: "
+					+ vertexID);
+		}
+		
 		DirectedVertex newVert = new DirectedVertex(vertexID, suppData);
 		this.vertexMapping.put(vertexID, newVert);
 	}
