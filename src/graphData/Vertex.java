@@ -1,8 +1,6 @@
-package data;
+package graphData;
 
 import java.util.*;
-
-
 
 public class Vertex extends AbstractVertex{
 	

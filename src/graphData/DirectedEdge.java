@@ -1,4 +1,4 @@
-package data;
+package graphData;
 
 
 public class DirectedEdge {

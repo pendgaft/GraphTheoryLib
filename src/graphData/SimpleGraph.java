@@ -1,4 +1,4 @@
-package data;
+package graphData;
 
 import java.util.HashMap;
 import java.util.Random;
